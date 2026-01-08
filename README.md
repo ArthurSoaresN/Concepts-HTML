@@ -1,2 +1,2 @@
 # Concepts-HTML
-HTML5 e CSS3 Class Notes
+HTML5 (Hypertext Markup Language) e CSS3 (Cascading Style Sheets) Class Notes
