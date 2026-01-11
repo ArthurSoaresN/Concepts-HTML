@@ -5,6 +5,9 @@
 em HTML id = em CSS #
 em HTML class = em CSS .
 
+id é unico
+class pode ser multiplo
+
 */
 
 body {
@@ -23,4 +26,19 @@ h1#First {
 
 h2 {
     color: #CDFA53;
+}
+
+.basico {
+    color: #A9B13A;
+    text-align: center;
+}
+
+.intermediario {
+    color: #D2DB48;
+    text-align: center;
+}
+
+.avancado {
+    color: #888F2F;
+    text-align: center;
 }
