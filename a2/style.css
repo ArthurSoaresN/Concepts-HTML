@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 
+
+em HTML id = em CSS #
+em HTML class = em CSS .
+
+*/
+
+body {
+    background-color: #757A66;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #B4CF67;
+}
+
+h1#First {
+    text-align: center;
+}
+
+h2 {
+    color: #CDFA53;
+}
