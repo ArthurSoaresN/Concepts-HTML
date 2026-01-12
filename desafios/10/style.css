@@ -18,6 +18,7 @@ main{
   background-color: #84e1ad;
   width: auto;
   height: auto;
+  padding-bottom:  30px;
 }
 
 /* header */
@@ -81,7 +82,7 @@ img {
   height: auto; /* altura */
   margin-left: 20vw;
   margin-right: 20vw;
-  box-shadow: 1px 10px 15px 5px black;
+  box-shadow: 0px 0px 15px 5px black;
   border-radius: 0px 0px 15px 15px;
 }
 
@@ -180,4 +181,21 @@ li::before {
   content: "\2714"; /* Código para ✔ */
   color: #000000;
   margin-right: 5px;
+}
+
+/* footer */
+
+footer {
+  height: 50px;
+  width: auto;
+  background-color: #1a5c38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#textorodape {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
