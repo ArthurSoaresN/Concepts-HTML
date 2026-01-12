@@ -17,7 +17,7 @@ header {
 main{
   background-color: #84e1ad;
   width: auto;
-  height: 1200px;
+  height: 2000px;
 }
 
 /* header */
@@ -58,18 +58,29 @@ main{
 
 /* main */
 
+#video {
+  height: 400px;
+  width: 60vw;
+}
+img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
 #folha {
   align-self: center;
   background-color: white;
-  width: 70vw; /* largura */
-  height: 1200px; /* altura */
-  margin-left: 15vw;
-  margin-right: 15vw;
+  width: 60vw; /* largura */
+  height: 2000px; /* altura */
+  margin-left: 20vw;
+  margin-right: 20vw;
   box-shadow: 1px 10px 15px 5px black;
 }
 
 #versao {
-  font-family: 'Bruno Ace';
+  font-family: 'Idroid';
   color: #1f603c;
   padding-left: 20px;
   padding-top: 30px;
@@ -78,7 +89,7 @@ main{
 
 #versao2 {
   text-indent: 5px;
-  font-family: 'Bruno Ace';
+  font-family: 'Idroid';
   color: #1f603c;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -96,6 +107,7 @@ main{
 }
 
 #referencia {
-  color: green;
+  color: #2c744d;
   text-decoration: none;
+  font-weight: bold;
 }
