@@ -15,6 +15,9 @@ header {
 }
 
 main{
+  margin: 0;
+  min-width: 700px;
+  max-width: auto;
   background-color: #84e1ad;
   width: auto;
   height: auto;
@@ -60,12 +63,17 @@ main{
 /* main */
 
 #video {
+
   height: 400px;
   width: 60vw;
-  border-top-width: 30px;
-  border-bottom-width: 30px; 
+  display: block;
+  margin: 0 auto;
+  align-items: center;
   border-color: #1a5c38;
   border-style: solid;
+  border-top-width: 30px;
+  border-bottom-width: 30px;
+
 }
 
 img {
@@ -76,12 +84,13 @@ img {
 }
 
 #folha {
+  min-width: 700px;
+  max-width: 1335px;
   align-self: center;
   background-color: white;
   width: 60vw; /* largura */
   height: auto; /* altura */
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin: auto;
   box-shadow: 0px 0px 15px 5px black;
   border-radius: 0px 0px 15px 15px;
 }
@@ -145,6 +154,7 @@ img {
 
 #caixa{
   height: 450px;
+  max-height: auto;
   width: auto;
   background-color: #c5ebd6;
   margin-top: 30px;
