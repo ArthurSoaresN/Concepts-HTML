@@ -155,8 +155,6 @@ img {
 
 #caixa{
   height: 450px;
-  min-height: 450px;
-  min-width: 700px;
   width: auto;
   background-color: #c5ebd6;
   margin-top: 30px;
@@ -165,6 +163,7 @@ img {
   margin-bottom: 30px;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 4px 4px 20px 0px black;
+  padding-bottom: 5px;
 }
 
 #lista {
