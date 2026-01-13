@@ -73,7 +73,7 @@ nav > a:hover {
 /* main */
 
 #video {
-
+  max-width: 1300px;
   height: 400px;
   width: 60vw;
   display: block;
